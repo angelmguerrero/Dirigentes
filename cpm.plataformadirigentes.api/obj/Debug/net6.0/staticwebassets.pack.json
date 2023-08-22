@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\source\\Workspaces\\DirigentesNew\\cpm.plataformadirigentes.api\\wwwroot\\CpmImage.png",
+      "PackagePath": "staticwebassets\\CpmImage.png"
+    },
+    {
+      "Id": "C:\\source\\Workspaces\\DirigentesNew\\cpm.plataformadirigentes.api\\wwwroot\\PieCorreo.jpg",
+      "PackagePath": "staticwebassets\\PieCorreo.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.cpm.plataformadirigentes.api.props",
+      "PackagePath": "build\\cpm.plataformadirigentes.api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.cpm.plataformadirigentes.api.props",
+      "PackagePath": "buildMultiTargeting\\cpm.plataformadirigentes.api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.cpm.plataformadirigentes.api.props",
+      "PackagePath": "buildTransitive\\cpm.plataformadirigentes.api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.cpm.plataformadirigentes.api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

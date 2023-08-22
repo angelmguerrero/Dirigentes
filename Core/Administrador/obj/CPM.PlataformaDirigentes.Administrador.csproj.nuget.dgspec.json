@@ -1,0 +1,707 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\source\\Workspaces\\DirigentesNew\\Core\\Administrador\\CPM.PlataformaDirigentes.Administrador.csproj": {}
+  },
+  "projects": {
+    "C:\\source\\Workspaces\\DirigentesNew\\Core\\Administrador\\CPM.PlataformaDirigentes.Administrador.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\source\\Workspaces\\DirigentesNew\\Core\\Administrador\\CPM.PlataformaDirigentes.Administrador.csproj",
+        "projectName": "CPM.PlataformaDirigentes.Administrador",
+        "projectPath": "C:\\source\\Workspaces\\DirigentesNew\\Core\\Administrador\\CPM.PlataformaDirigentes.Administrador.csproj",
+        "packagesPath": "C:\\Users\\sysbamoga800320\\.nuget\\packages\\",
+        "outputPath": "C:\\source\\Workspaces\\DirigentesNew\\Core\\Administrador\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sysbamoga800320\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\source\\Workspaces\\DirigentesNew\\Core\\Comun\\CPM.PlataformaDirigentes.Comun.csproj": {
+                "projectPath": "C:\\source\\Workspaces\\DirigentesNew\\Core\\Comun\\CPM.PlataformaDirigentes.Comun.csproj"
+              },
+              "C:\\source\\Workspaces\\DirigentesNew\\Core\\Data\\CPM.PlataformaDirigentes.Data.csproj": {
+                "projectPath": "C:\\source\\Workspaces\\DirigentesNew\\Core\\Data\\CPM.PlataformaDirigentes.Data.csproj"
+              },
+              "C:\\source\\Workspaces\\DirigentesNew\\Core\\Helpers\\CPM.PlataformaDirigentes.Helpers.csproj": {
+                "projectPath": "C:\\source\\Workspaces\\DirigentesNew\\Core\\Helpers\\CPM.PlataformaDirigentes.Helpers.csproj"
+              },
+              "C:\\source\\Workspaces\\DirigentesNew\\Core\\MGenericRepository\\MGenericRepository.csproj": {
+                "projectPath": "C:\\source\\Workspaces\\DirigentesNew\\Core\\MGenericRepository\\MGenericRepository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\source\\Workspaces\\DirigentesNew\\Core\\Comun\\CPM.PlataformaDirigentes.Comun.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\source\\Workspaces\\DirigentesNew\\Core\\Comun\\CPM.PlataformaDirigentes.Comun.csproj",
+        "projectName": "CPM.PlataformaDirigentes.Comun",
+        "projectPath": "C:\\source\\Workspaces\\DirigentesNew\\Core\\Comun\\CPM.PlataformaDirigentes.Comun.csproj",
+        "packagesPath": "C:\\Users\\sysbamoga800320\\.nuget\\packages\\",
+        "outputPath": "C:\\source\\Workspaces\\DirigentesNew\\Core\\Comun\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sysbamoga800320\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\source\\Workspaces\\DirigentesNew\\Core\\Data\\CPM.PlataformaDirigentes.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\source\\Workspaces\\DirigentesNew\\Core\\Data\\CPM.PlataformaDirigentes.Data.csproj",
+        "projectName": "CPM.PlataformaDirigentes.Data",
+        "projectPath": "C:\\source\\Workspaces\\DirigentesNew\\Core\\Data\\CPM.PlataformaDirigentes.Data.csproj",
+        "packagesPath": "C:\\Users\\sysbamoga800320\\.nuget\\packages\\",
+        "outputPath": "C:\\source\\Workspaces\\DirigentesNew\\Core\\Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sysbamoga800320\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\source\\Workspaces\\DirigentesNew\\Core\\Comun\\CPM.PlataformaDirigentes.Comun.csproj": {
+                "projectPath": "C:\\source\\Workspaces\\DirigentesNew\\Core\\Comun\\CPM.PlataformaDirigentes.Comun.csproj"
+              },
+              "C:\\source\\Workspaces\\DirigentesNew\\Core\\EmailMailkit\\EmailMailkit.csproj": {
+                "projectPath": "C:\\source\\Workspaces\\DirigentesNew\\Core\\EmailMailkit\\EmailMailkit.csproj"
+              },
+              "C:\\source\\Workspaces\\DirigentesNew\\Core\\GraphServices\\GraphServices.csproj": {
+                "projectPath": "C:\\source\\Workspaces\\DirigentesNew\\Core\\GraphServices\\GraphServices.csproj"
+              },
+              "C:\\source\\Workspaces\\DirigentesNew\\Core\\Helpers\\CPM.PlataformaDirigentes.Helpers.csproj": {
+                "projectPath": "C:\\source\\Workspaces\\DirigentesNew\\Core\\Helpers\\CPM.PlataformaDirigentes.Helpers.csproj"
+              },
+              "C:\\source\\Workspaces\\DirigentesNew\\Core\\Logger\\LoggerUtility.csproj": {
+                "projectPath": "C:\\source\\Workspaces\\DirigentesNew\\Core\\Logger\\LoggerUtility.csproj"
+              },
+              "C:\\source\\Workspaces\\DirigentesNew\\Core\\MGenericRepository\\MGenericRepository.csproj": {
+                "projectPath": "C:\\source\\Workspaces\\DirigentesNew\\Core\\MGenericRepository\\MGenericRepository.csproj"
+              },
+              "C:\\source\\Workspaces\\DirigentesNew\\Core\\Models\\CPM.PlataformaDirigentes.Models.csproj": {
+                "projectPath": "C:\\source\\Workspaces\\DirigentesNew\\Core\\Models\\CPM.PlataformaDirigentes.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.20, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\source\\Workspaces\\DirigentesNew\\Core\\EmailMailkit\\EmailMailkit.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\source\\Workspaces\\DirigentesNew\\Core\\EmailMailkit\\EmailMailkit.csproj",
+        "projectName": "EmailMailkit",
+        "projectPath": "C:\\source\\Workspaces\\DirigentesNew\\Core\\EmailMailkit\\EmailMailkit.csproj",
+        "packagesPath": "C:\\Users\\sysbamoga800320\\.nuget\\packages\\",
+        "outputPath": "C:\\source\\Workspaces\\DirigentesNew\\Core\\EmailMailkit\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sysbamoga800320\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\source\\Workspaces\\DirigentesNew\\Core\\Logger\\LoggerUtility.csproj": {
+                "projectPath": "C:\\source\\Workspaces\\DirigentesNew\\Core\\Logger\\LoggerUtility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Ical.Net": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "RazorEngineCore": {
+              "target": "Package",
+              "version": "[2022.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\source\\Workspaces\\DirigentesNew\\Core\\GraphServices\\GraphServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\source\\Workspaces\\DirigentesNew\\Core\\GraphServices\\GraphServices.csproj",
+        "projectName": "GraphServices",
+        "projectPath": "C:\\source\\Workspaces\\DirigentesNew\\Core\\GraphServices\\GraphServices.csproj",
+        "packagesPath": "C:\\Users\\sysbamoga800320\\.nuget\\packages\\",
+        "outputPath": "C:\\source\\Workspaces\\DirigentesNew\\Core\\GraphServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sysbamoga800320\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\source\\Workspaces\\DirigentesNew\\Core\\Models\\CPM.PlataformaDirigentes.Models.csproj": {
+                "projectPath": "C:\\source\\Workspaces\\DirigentesNew\\Core\\Models\\CPM.PlataformaDirigentes.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Identity.Client": {
+              "target": "Package",
+              "version": "[4.50.0, )"
+            },
+            "Microsoft.Identity.Web": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            },
+            "Microsoft.Identity.Web.MicrosoftGraphBeta": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\source\\Workspaces\\DirigentesNew\\Core\\Helpers\\CPM.PlataformaDirigentes.Helpers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\source\\Workspaces\\DirigentesNew\\Core\\Helpers\\CPM.PlataformaDirigentes.Helpers.csproj",
+        "projectName": "CPM.PlataformaDirigentes.Helpers",
+        "projectPath": "C:\\source\\Workspaces\\DirigentesNew\\Core\\Helpers\\CPM.PlataformaDirigentes.Helpers.csproj",
+        "packagesPath": "C:\\Users\\sysbamoga800320\\.nuget\\packages\\",
+        "outputPath": "C:\\source\\Workspaces\\DirigentesNew\\Core\\Helpers\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sysbamoga800320\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\source\\Workspaces\\DirigentesNew\\Core\\Models\\CPM.PlataformaDirigentes.Models.csproj": {
+                "projectPath": "C:\\source\\Workspaces\\DirigentesNew\\Core\\Models\\CPM.PlataformaDirigentes.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Ical.Net": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\source\\Workspaces\\DirigentesNew\\Core\\Logger\\LoggerUtility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\source\\Workspaces\\DirigentesNew\\Core\\Logger\\LoggerUtility.csproj",
+        "projectName": "LoggerUtility",
+        "projectPath": "C:\\source\\Workspaces\\DirigentesNew\\Core\\Logger\\LoggerUtility.csproj",
+        "packagesPath": "C:\\Users\\sysbamoga800320\\.nuget\\packages\\",
+        "outputPath": "C:\\source\\Workspaces\\DirigentesNew\\Core\\Logger\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sysbamoga800320\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\source\\Workspaces\\DirigentesNew\\Core\\MGenericRepository\\MGenericRepository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\source\\Workspaces\\DirigentesNew\\Core\\MGenericRepository\\MGenericRepository.csproj",
+        "projectName": "MGenericRepository",
+        "projectPath": "C:\\source\\Workspaces\\DirigentesNew\\Core\\MGenericRepository\\MGenericRepository.csproj",
+        "packagesPath": "C:\\Users\\sysbamoga800320\\.nuget\\packages\\",
+        "outputPath": "C:\\source\\Workspaces\\DirigentesNew\\Core\\MGenericRepository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sysbamoga800320\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.20, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\source\\Workspaces\\DirigentesNew\\Core\\Models\\CPM.PlataformaDirigentes.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\source\\Workspaces\\DirigentesNew\\Core\\Models\\CPM.PlataformaDirigentes.Models.csproj",
+        "projectName": "CPM.PlataformaDirigentes.Models",
+        "projectPath": "C:\\source\\Workspaces\\DirigentesNew\\Core\\Models\\CPM.PlataformaDirigentes.Models.csproj",
+        "packagesPath": "C:\\Users\\sysbamoga800320\\.nuget\\packages\\",
+        "outputPath": "C:\\source\\Workspaces\\DirigentesNew\\Core\\Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sysbamoga800320\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools.DotNet": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

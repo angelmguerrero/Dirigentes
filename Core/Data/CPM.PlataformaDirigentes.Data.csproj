@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>%24/CPM.PlataformaDirigentes/Core/Data</SccProjectName>
+    <SccProvider>{4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}</SccProvider>
+    <SccAuxPath>http://cpmv400003:8080/tfs/gpti_proyectos</SccAuxPath>
+    <SccLocalPath>.</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.20">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.20" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Comun\CPM.PlataformaDirigentes.Comun.csproj" />
+    <ProjectReference Include="..\EmailMailkit\EmailMailkit.csproj" />
+    <ProjectReference Include="..\GraphServices\GraphServices.csproj" />
+    <ProjectReference Include="..\Helpers\CPM.PlataformaDirigentes.Helpers.csproj" />
+    <ProjectReference Include="..\Logger\LoggerUtility.csproj" />
+    <ProjectReference Include="..\MGenericRepository\MGenericRepository.csproj" />
+    <ProjectReference Include="..\Models\CPM.PlataformaDirigentes.Models.csproj" />
+  </ItemGroup>
+
+</Project>
